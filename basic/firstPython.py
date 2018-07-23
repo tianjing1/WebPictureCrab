@@ -25,4 +25,4 @@ def getImg(html):
     return imageList
 
 html = get_html("http://tieba.baidu.com/p/2460150866")
-print getImg(html)
+print(getImg(html))
